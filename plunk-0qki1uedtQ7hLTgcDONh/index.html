@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/css/jquery.dataTables.css"/>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    
+    
+    <script data-require="jquery@2.0.3" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script data-require="bootstrap@2.3.2" data-semver="2.3.2" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/datatables/1.9.4/jquery.dataTables.min.js"></script>
+    
+    
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+   <div class="container">
+    
+    <div class="row">
+        <div class="span12">
+            <div id="chart" style="height: 500px"></div>
+            <div id="report"></div>
+            
+            <legend>Table</legend>
+            <table id="table"></table>
+        </div>
+    </div>
+</div>
+
+             <!-- Table Modal -->
+              <div class="modal fade" id="modal-responder">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">x</button>
+                    <h3>Responder Details</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="row-fluid">
+                         
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" id="modalOK" data-dismiss="modal" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+            
+  </body>
+
+</html>
